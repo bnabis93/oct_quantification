@@ -1,0 +1,17 @@
+[setting]
+data = inha_oct_5classes
+
+mode = train
+# original or resize
+size_mode = original
+resize_constant = 0.5
+
+[path]
+
+original = ./data/fine_segmentor_data/fine_train/
+ground = ./data/fine_segmentor_data/fine_label/
+mask = None
+
+#test = ./pipeline_result/bmo_patch/
+
+save_path = ./data/hdf5_data/inha_oct/
